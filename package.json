@@ -1,0 +1,24 @@
+{
+  "name": "nizde_kalkulator",
+  "version": "1.0.0",
+  "description": "Kalkulator webpage",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "serve": "webpack serve"
+  },
+  "author": "Nizde",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^8.0.0",
+    "sass-loader": "^13.2.0",
+    "webpack": "^5.75.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^5.0.1"
+  }
+}
